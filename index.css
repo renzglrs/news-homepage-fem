@@ -1,0 +1,99 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* 
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700, 800
+
+*/
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+/* Hero */
+.hero-title {
+  font-weight: 800;
+  /* font-size: 4vw; */
+}
+
+.hero-details {
+  color: hsl(236, 13%, 42%);
+}
+
+#hero-button {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+#article-list {
+  background-color: hsl(240, 100%, 5%);
+  height: 100%;
+}
+
+.article-title {
+  color: hsl(35, 77%, 62%);
+  font-weight: 700;
+}
+
+.article-container {
+  color: white;
+  /* border-bottom: solid 1px hsl(236, 13%, 42%); */
+}
+
+#article-divider {
+  border-bottom: solid 1px hsl(236, 13%, 42%);
+  /* border-bottom: solid 1px hsl(236, 13%, 42%); */
+}
+
+.article-header {
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+}
+
+.sub-title {
+  color: hsl(236, 13%, 42%);
+}
